@@ -1,3 +1,4 @@
+
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +8,5 @@ namespace DataModel
 {
     public class Class1
     {
-        public string ID { get; set; }
-        public string IDDSF { get; set; }
-
-
-
     }
 }
