@@ -8,5 +8,7 @@ namespace DataModel
     public class Class1
     {
         public string ID { get; set; }
+        public string IDDSF { get; set; }
+
     }
 }
