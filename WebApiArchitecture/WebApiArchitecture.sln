@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Architecture", "ModelingProject\Architecture.modelproj", "{95FAA3E2-FD62-405B-9393-EC08481319BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{F43F022B-DBBC-4128-8158-A7B61CD0AEC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{4E0ACE87-979F-4F2B-B4CD-E8AB55476D87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicLibrary", "BasicLibrary", "{18D5DB0C-94CC-47ED-8C16-A8B25E55E0A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{DFDC7A3A-D87E-4ED2-9087-5B3A224F7CDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A78BB0B2-9E89-4C48-BF3A-3595F693D6B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchitectureModel", "ArchitectureModel", "{5F284143-05F9-441B-B401-92DDC148AF9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95FAA3E2-FD62-405B-9393-EC08481319BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95FAA3E2-FD62-405B-9393-EC08481319BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95FAA3E2-FD62-405B-9393-EC08481319BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95FAA3E2-FD62-405B-9393-EC08481319BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43F022B-DBBC-4128-8158-A7B61CD0AEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43F022B-DBBC-4128-8158-A7B61CD0AEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43F022B-DBBC-4128-8158-A7B61CD0AEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43F022B-DBBC-4128-8158-A7B61CD0AEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F43F022B-DBBC-4128-8158-A7B61CD0AEC3} = {DFDC7A3A-D87E-4ED2-9087-5B3A224F7CDB}
+		{95FAA3E2-FD62-405B-9393-EC08481319BF} = {5F284143-05F9-441B-B401-92DDC148AF9E}
+	EndGlobalSection
+EndGlobal
